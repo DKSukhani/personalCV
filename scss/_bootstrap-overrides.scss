@@ -1,3 +1,6 @@
+@import "dipesh_custom.scss";
+
+
 .bg-primary {
   background-color: $primary !important;
 }
@@ -13,4 +16,8 @@ a {
   &:active {
     color: darken($primary, 15%);
   }
+}
+
+#CodingTable {
+  background-color: $table-header;
 }
